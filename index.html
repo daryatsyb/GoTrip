@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoTrip</title>
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,20 +18,20 @@
 
                 <nav class="nav">
                     <div class="nav-logo">
-                        <a href="">GoTrip</a>
+                        <a href=""><img src="icons/round-trip2.png" alt="">GoTrip</a>
                     </div>
                    
                     <ul class="nav-list">
-                        <li><a class="ac" href="">Home</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a class="nav-list-item" href="">Home</a></li>
+                        <li><a class="nav-list-item" href="">Services</a></li>
+                        <li><a class="nav-list-item" href="">Pricing</a></li>
+                        <li><a class="nav-list-item" href="">Contact</a></li>
                     </ul>
-
-                    <ul class="nav-login">
-                        <li><a href="">Sign up</a></li>
-                        <li><a href="" class="btn">Login</a></li>
-                    </ul>
+                    <div class="nav-hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </nav>
             </div>
             <div class="header-content">
@@ -38,12 +39,9 @@
                     <div class="header-badge">exsplore the world</div>
                     <h1 class="header-title">Explore The Natural Beauty Of Halmahera With Us</h1>
                     <div class="header-text">explore the beauty of god's earth in a beautiful forest and have fun</div>
-                    <a class="header-bth" href="#!">Exsplore Now</a>
+                    <a class="header-btn" href="#!">Exsplore Now</a>
                 </div>
-                <div class="header-img">
-                    <img src="img/header/hedder_bg.png" alt="">
-                    <img src="img/header/header-elements.svg" alt="">
-                </div>
+                <img src="img/header/hedder_bg2.png" alt="trip" class="header-img">
             </div>
         </div>
     </header>
@@ -53,7 +51,7 @@
                 <div class="destinations-content-choice">Choice Of</div>
                 <h2 class="destinations-content-title">Destinations</h2>
                 <div class="destinations-content-text">explore the beauty of god's earth in a beautiful forest and have fun</div>
-                <a href="#!" class="destinations-content-bth">Exsplore Now</a>
+                <a href="#!" class="destinations-content-btn">Exsplore Now</a>
             </div>
             <div class="destinations-slider">
                 <div class="slider">
@@ -62,20 +60,23 @@
                         <img src="img/slider/Rectangle-2.jpg" alt="item2" class="slider-item">
                         <img src="img/slider/Rectangle-3.jpg" alt="item3" class="slider-item">
                     </div>
-                    <button class="slider-bth-left">
+                    <button class="slider-btn-left">
                         <img src="img/slider/arrow-left.svg" alt="left">
                     </button>
-                    <button class="slider-bth-right">
+                    <button class="slider-btn-right">
                         <img src="img/slider/arrow-right.svg" alt="right">
                     </button>
                 </div>
             </div>
+            <a href="#!" class="destinations-content-btn mobile">Exsplore Now</a>
+
+        </div>
    </section>
    <section class="customers">
         <div class="container">
             <div class="customers-row">
                 <div class="customers-img">
-                    <img src="/img/castomers/costumers.jpg" alt="customer">
+                    <img src="./img/castomers/costumers.jpg" alt="customer">
                 </div>
                 <div class="customers-content">
                     <div class="customers-content-title">What do customers say about us?</div>
@@ -102,10 +103,10 @@
         <div class="container">
             <div class="cta-content">
                 <h2 class="cta-title">
-                    Prepare Yourself And<br>Start Exploring With Us.
+                    Prepare Yourself And Start Exploring With Us.
                 </h2>
                 <div class="cta-text">There's the best discount for you today.</div>
-                <a href="#!" class="cta-bth">Get Started</a>
+                <a href="#!" class="cta-btn">Get Started</a>
             </div>
         </div>
    </section>
@@ -117,24 +118,23 @@
                 </h2>
                 <div class="subscribe-form">
                     <input type="email" class="subscribe-form-input" placeholder="Yourmail@mail.com">
-                    <button class="subscribe-form-bth">Subscribe</button>
+                    <button class="subscribe-form-btn">Subscribe</button>
                 </div>
+                <button class="subscribe-form-btn subscribe-form-btn-mobile">Subscribe</button>
             </div>
         </div>
    </section>
    <footer class="footer">
         <div class="container">
-            <nav class="nav">
-                <div class="footer-logo">GoTrip</div>
-                <ul class="nav-list nav-list-footer">
+            <nav class="nav nav-footer">
+                <div class="footer-logo">
+                    <a href="#"><img src="icons/round-trip2.png" alt="">GoTrip</a>
+                </div>
+                <ul class="nav-list-footer">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Contact</a></li>
-                </ul>
-                <ul class="nav-login nav-login-footer">
-                    <li><a href="">Sign up</a></li>
-                    <li><a href="" class="btn">Login</a></li>
                 </ul>
             </nav>
         </div>
