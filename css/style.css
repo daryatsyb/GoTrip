@@ -61,7 +61,7 @@ body a {
     height: 40px;
     margin-right: 10px;
 }
-.nav-list {
+.nav-list, .nav-list-footer {
     display: flex;
     justify-content: space-between;
     column-gap: 7vw;
@@ -344,6 +344,8 @@ body a {
     font-size: 45px;
     font-weight: 500;
     line-height: 68px;
+    max-width: 800px;
+    text-align: center;
 }
 .cta-text {
     margin-top: 30px;
@@ -600,7 +602,6 @@ body a {
     .destinations-content-title, .customers-content-title,.cta-title, .subscribe-title {
         font-size: 30px;
         line-height: 38px;
-        text-align: center;
     }
     .cta-title {
         font-size: 26px;
@@ -626,7 +627,7 @@ body a {
         border-radius: 20px;
     }
     .customers {
-        padding-bottom: 60px;
+        padding-bottom: 135px;
     }
     .customers-content {
         width: 100%;
@@ -678,8 +679,8 @@ body a {
     .subscribe-form-input {
         max-width: 100%;
         min-width: auto;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 20px;
+        line-height: 20px;
         padding: 10px;
     }
     .nav-footer {
